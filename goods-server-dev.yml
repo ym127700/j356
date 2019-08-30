@@ -1,1 +1,10 @@
-foo: version7
+server:
+  port: 9001
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
