@@ -6,11 +6,5 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8788/eureka/
-spring:
-  cloud:
-    bus:
-      enabled: true
-      trace:
-        enabled: true      
+      defaultZone: http://127.0.0.1:8788/eureka/   
 foo: hello world 222
