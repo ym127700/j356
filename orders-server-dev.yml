@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: orders-server
+server:
+  port: 9010 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8788/eureka/  
+  
