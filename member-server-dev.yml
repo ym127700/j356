@@ -8,4 +8,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8788/eureka/    
-foo: hello member 03
+foo: hello member 04
