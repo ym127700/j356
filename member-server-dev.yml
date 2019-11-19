@@ -1,11 +1,1 @@
-spring:
-  rabbitmq:
-    host: 192.168.204.132
-    port: 5672
-    password: guest
-    username: guest    
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8788/eureka/    
-foo: hello member 08
+   foo: hello member 08
